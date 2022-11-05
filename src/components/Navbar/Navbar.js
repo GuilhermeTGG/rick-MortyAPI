@@ -1,12 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { NavLink, Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <h1 className="fs-3 ubuntu navbar-brand">
+                <Link to="" className="fs-3 ubuntu navbar-brand">
                     Rick & Morty <span className="text-primary">WiKi</span>
-                </h1>
+                </Link>
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -19,10 +20,9 @@ const Navbar = () => {
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Features</a>
-                        <a class="nav-link" href="#">Pricing</a>
-                        <a class="nav-link disabled">Disabled</a>
+                        <NavLink to="" class="nav-link">Characters</NavLink>
+                        <NavLink to="/episodes" class="nav-link">Espisodes</NavLink>
+                        <NavLink to="/location" class="nav-link">Location</NavLink>
                     </div>
                 </div>
             </div>
