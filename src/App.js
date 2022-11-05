@@ -5,6 +5,7 @@ import Cards from "./components/Cards/Cards"
 import Filters from "./components/Filters/Filters"
 import Pagination from './components/Pagination/Pagination'
 import Search from './components/Search/Search'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
   let [pageNumber, setPageNumber] = useState(1)
@@ -27,10 +28,8 @@ function App() {
 
   return (
   <div className="App">
-    <h1 className="text-center ubuntu my-4">
-      Rick & Morty <span className="text-primary">WiKi</span>
-    </h1>
-
+    <Navbar />
+    
     <Search setPageNumber={setPageNumber} setSearch={setSearch}/>
     
     <div className="container">
