@@ -10,8 +10,9 @@ const Cards = ({ results, page }) => {
             let { id, name, image, location, status } = x
             return (
             <Link
-            to={`${page}${id}`}
-             key={id} className="col-4 mb-4 position-relative">
+            style={{textDecoration : "none"}}
+            to ={`${page}${id}`}
+             key={id} className="col-4 mb-4 position-relative text-dark">
                 <div className={styles.cards}>
                     <img src={image} alt="" className={`${styles.img} img-fluid`}/>
                     <div style={{padding : "10px"}} className="content">
