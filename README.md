@@ -52,5 +52,6 @@ Após ter instalado as dependências, use o seguinte comando para rodar o projet
 #!/bin/bash
 $ npm run start:dev
 ```
-📁Acesso ao projeto📁
-https://rick-morty-api-peach.vercel.app/
+  <h2>📁Acesso ao projeto📁</h2>
+ <ul>
+   <li>https://rick-morty-api-peach.vercel.app/</li>
