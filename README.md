@@ -1,10 +1,10 @@
 <body>
 <h1>Projeto Rick and Morty WiKi</h1>
-<li>Uma card list utilizando a API do Rick and Morty e suas funcionalidades. 
+<li>Uma Card List utilizando a API do Rick and Morty e suas funcionalidades. 
 
  <h2>Objetivo</h2>
  <ul>
- <li>Aprimorar e colocar em prática meus conhecimentos em React junto a habilidade de utilizar APIs</li>
+ <li>Aprimorar e colocar em prática os meus conhecimentos em React junto a habilidade de utilizar APIs</li>
  
  <h2>🔨 Funcionalidades do projeto🔨</h2>
 
