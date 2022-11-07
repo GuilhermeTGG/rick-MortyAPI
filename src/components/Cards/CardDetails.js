@@ -65,10 +65,13 @@ const CardDetails = () => {
           </div>
           <div className=''>
             <span className='fw-bold'>
-              Origin:{" "}
+              Origin:{" "} 
             </span>
             {origin?.name}
           </div>
+          <br></br>
+          <br></br>
+          <br></br>
         </div>
       </div>
     </div>
