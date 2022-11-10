@@ -4,7 +4,7 @@
 
  <h2>Objetivo</h2>
  <ul>
- <li>Aprimorar e colocar em prática os meus conhecimentos em React junto a habilidade de utilizar APIs</li>
+ <li>Aprimorar e colocar em prática os meus conhecimentos em React junto com a utilização da API.</li>
  
  <h2>🔨 Funcionalidades do projeto🔨</h2>
 
